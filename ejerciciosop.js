@@ -1,14 +1,13 @@
-// 1. Acceso a un sistema
 
-let usuario = prompt("Escriba el usuario administrador: ");
-let contraseña = prompt("Escriba la contraseña de administrador: ");
 
-if (usuario === "admin" && contraseña === "1234") {
-    
-    alert("Acceso permitido. Bienvenido al sistema.");
-    console.log("Bienvenido usuario " + usuario + " ha ingresado.");
 
-} else {
-    alert("Acceso denegado.");
-    console.log("Intento de acceso incorrecto");
-}
+// 3. Clasificacion de numeros
+
+let numero = parseInt(prompt("Digita un numero: "));
+
+if (numero > 0 ) {
+    alert ("El numero " + numero + " es un numero positivo");
+}else if ( numero < 0 ) {
+        alert ("El numero " + numero + " es un numero negativo");
+}else 
+    alert("El numero es igual a 0");
