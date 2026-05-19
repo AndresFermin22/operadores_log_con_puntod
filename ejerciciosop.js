@@ -13,6 +13,7 @@ if (usuario === "admin" && contraseña === "1234") {
     console.log("Intento de acceso incorrecto");
 }
 
+//RTA: se usa el operador logico && (AND)
 
 //2. Calcular precio de entradas al cine
 
